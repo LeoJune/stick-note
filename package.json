@@ -1,0 +1,33 @@
+{
+  "name": "myapp",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "bulid": "webpack --mode development"
+  },
+  "dependencies": {
+    "body-parser": "~1.18.2",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "ejs": "~2.5.7",
+    "expose-loader": "^0.7.5",
+    "express": "~4.15.5",
+    "express-session": "^1.15.6",
+    "morgan": "~1.9.0",
+    "passport": "^0.4.0",
+    "passport-github": "^1.1.0",
+    "sequelize": "^4.36.1",
+    "serve-favicon": "~2.4.5",
+    "sqlite3": "^3.1.13"
+  },
+  "devDependencies": {
+    "css-loader": "^0.28.10",
+    "less": "^3.0.1",
+    "less-loader": "^4.1.0",
+    "onchange": "^3.3.0",
+    "style-loader": "^0.20.3",
+    "webpack": "^4.1.1",
+    "webpack-cli": "^2.0.11"
+  }
+}
